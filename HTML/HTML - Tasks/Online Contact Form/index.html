@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form action="/submit-inquiry" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
+            
+            <label for="phone">Phone</label>
+            <input type="phone" id="phone" name="phone" placeholder="Your Phone Number" required><br><br>
+            
+            <label for="name">Message</label>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea><br><br>
+
+            <button type="submit">Submit</button><br><br>
+            
+        </form>
+        <p class="note">We will get you back within 2-3 business days</p>
+    
+    </div>
+</body>
+</html>
